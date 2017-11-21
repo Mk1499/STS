@@ -1,0 +1,539 @@
+body{
+   font-family: 'Raleway', sans-serif; 
+    line-height: 1.5;
+    font-size: 16px;
+    
+    
+}
+a:hover{
+    text-decoration: none ;
+}
+.head{
+    background-image: url('../img/banner2-bg.jpg');
+    
+    
+}
+.footer{
+    background-color: #181818; 
+    padding: 1.5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+ 
+/* start header */ 
+#sub-logo{
+    display: none ;
+}
+.sub{
+    line-height: 60px;
+font-size: 32px;
+}
+.sts-nav{
+    
+    padding: 20px 0 0 0;
+     color: white;
+    
+}
+.space{
+    margin-left: 18px;
+}
+.supp{
+    margin-right: 12%;
+    
+   float: right;
+    font-size: 16px;
+}
+
+.header-c{
+    margin-left: 5% ;
+}
+/* navBar */ 
+.navbar-inverse{
+    background-color: transparent;
+border-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: white ;
+    border-radius: 10px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color: white ; 
+    color: #e52a3b ;
+}
+.navbar-inverse .navbar-nav > .open > a {
+   
+    color: #e52a3b !important; 
+    background-color: white!important;
+}
+
+.navbar-nav > li > .dropdown-menu{
+    border-radius: 10px;
+}
+.navbar-nav > li > .dropdown-menu > li:hover{
+    background-color: #e52a3b;
+}
+.dropdown-menu > li > a{
+    display: block;
+    color: #e52a3b ; 
+    padding: 3px 12px;
+ 
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+    color: white ; 
+    background-color: #e52a3b ;
+    
+}
+/* End Header */ 
+
+/* Start Footer */ 
+p.FootMenu{
+    color: white ;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+ul{
+    list-style: none ;
+}
+ul.FootList a ,ul.FootList li {
+    
+    color: #727272;
+    font-size: 100%;
+}
+ul.FootList a:hover{
+    color: white ;
+    text-decoration: none
+}
+.FootForm input ,.FootForm textarea{
+    background-color: transparent;
+    border: thin solid #525050;
+    margin-bottom: 10px;
+}
+.FootForm button {
+    width: 45%;
+    height: 12%;
+    margin: 10 0 0 0px;
+    border: thick solid #525050;
+    background-color: #e52a3b ;
+    transition-duration: 0.5s;
+}
+.FootForm button:hover{
+    background-color: #243441 ;
+    border-color: #525050;
+    
+}
+
+.ended{
+    background-color: #303030 ;
+    color: #727272;
+     padding: 1% 10% 1% 10% ;
+    
+}
+
+.ended a{
+    color: white;
+}
+.ended a.policy{
+    color: #727272;
+}
+.ended a.policy:hover{
+    color: #fff;
+}
+.ended ul li{
+    display: inline-block;
+    margin: 1%;
+    float: right ;
+    font-size: 15px;
+    padding: 1%;
+    background: gray ;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.ended li:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.FootForm .btn-danger{
+    border-radius: 10px;
+}
+/* End Footer */ 
+
+/* Start Index */ 
+
+/*start services */ 
+.services{
+    display: block;
+   }
+.wel{
+    padding-left: 300px !important;
+}
+
+.info-btns{
+    display: none;
+ text-align: center;
+    margin-top: 30px;
+    
+}
+button.serv-btn{
+    padding:10px ;
+    border:0;
+    z-index: 5;
+    position: relative;
+    width: auto ;
+}
+#dai1 .daimond {
+    background: rgb(0, 163, 219) ;
+}
+
+#dai2 .daimond {
+    background: rgb(3, 201, 169);
+}
+
+#dai3 .daimond {
+    background: rgb(229, 42, 59);
+}
+
+#dai4 .daimond {
+    background: rgb(255, 95, 155);
+}
+.daimond {
+    position: absolute;
+    display: block;
+  color: white ;
+text-align: center;
+    width: 130px;
+    height: 130px;
+      transform: rotate(45deg);
+    opacity: 0.6 ;
+    transition: 0.5s ;
+  }
+  .daimond-content{
+    position: relative; 
+      top : 15% ;
+      color: white;
+      z-index: 5;
+  }
+.dai{
+    display: block ;
+    width: 130px;
+    height: 230px;
+}
+
+.dai:hover > .daimond{
+        opacity: 0.8 ;
+      transform: rotate(135deg);
+}
+
+.arena{
+    margin-left: 0;
+    font-size: 30px; 
+    color: white ;
+}
+/* end services */ 
+
+/* start Mobile section */ 
+
+.Mobile { 
+background: #e52a3b url(../img/header-triangle.png) left top repeat-x;
+color: #fff;
+padding: 10px 0px 0 125px; 
+}
+
+
+ .btn-danger {
+    width: 40%;
+    margin: 10px 0 0 5px;
+    font-size: 14px;
+line-height: 1.5;
+    border-radius: 40px;
+    padding: 15px 40px;
+ box-shadow: 0 0 0 6px rgba(255,255,255,.2);
+    transition: 0.5s ;
+}
+ .btn-red{
+    background-color: #e52a3b ;
+}
+.btn-red:hover {
+    background-color: #243441 ;
+     
+}
+ span.or{
+    background-color: white ;
+    color: #243441 ;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    position: absolute ;
+    text-align: center;
+    z-index: 1 ;
+    left: 38%;
+    top: 25%;
+     box-shadow: 0 0 0 6px rgba(255,255,255,.2);
+    border-radius: 50% ;
+    
+}
+
+ .btn-black {
+    background-color: #243441;
+}
+ .btn-black:hover {
+    background-color: #e52a3b ;
+    
+}
+/* end Mobile Section */ 
+
+/* start combine section */ 
+
+.combine div.process{
+    background: url("../img/ourprocess.png") no-repeat ;
+    background-size: contain;
+    padding: 5%;
+
+}
+.combine i {
+    width: 120px;
+    height: 120px ;
+    padding-top: 45px;
+    background: #fff ; 
+    border: 2px solid #f4f3f3 ;
+    border-radius: 50% ;
+    top : 0 ;
+    transition: 0.5s ;
+    margin-bottom: 20px;
+}
+.combine i:hover{
+    border: 2px solid #e52a3b ;
+    color: #e52a3b;
+}
+.combine div.proc-col{
+    margin-right: 50px;
+}
+
+ .combine-side{
+     background: url("../img/home-clients.png") no-repeat center;
+     max-width: 100%;
+     
+     padding-top: 50%;
+}
+
+.combine-side h3{
+    
+    font-size: 24px;
+   
+    text-align: center ;
+    color: gray ;
+}
+
+.combine-side .slide{
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.combine-side .btn{
+    width: 100%;
+}
+/* end combine section */ 
+
+/* start web Section */ 
+.web i  , .CRM i{
+    font-size: 100%;
+    background-color: #e52a3b ;
+    color: white ;
+    border-radius: 50% ;
+    width:30px ;
+    height: 30px ;
+    text-align: center;
+    line-height: 30px;
+}
+.web li , .CRM li{
+      padding-bottom: 10px;
+}
+.web h3 , .CRM h3{
+    color: #e52a3b ;
+}
+
+.web span ,.CRM span{
+    left: 38%;
+    top: 90%;
+}
+ 
+@media (max-width:990px){
+    
+    .combine div.process{
+        background: url("../img/ourprocess-mobile-v.png") no-repeat center;
+        background-size: contain;
+        
+   
+    }
+    .combine div.proc-col{
+        margin-left: 50px;
+    }
+    
+    .combine-side {
+        padding-top: 130px;
+        padding-left: 25%;
+       
+    }
+    .combine-side .btn ,  .combine-side h3{
+    margin-left: -30%;
+}
+    .btn-danger   {
+        width: 100%;
+    }
+    #main-logo{
+        display: none ;
+    }
+    #sub-logo{
+        display: block ;
+    }
+    .FootForm button{
+        width: 100%;
+    }
+    .about-h {
+   
+   
+    margin-bottom: 20px;
+}
+    
+}
+/* end web Section */ 
+
+/* start CRM section */ 
+.CRM img , .host img {
+    max-width: 100% ;
+}
+/*end CRM section */ 
+
+/* start hosting */ 
+
+/*end hosting */ 
+
+/* start design */ 
+.design{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+ p.heading{
+    font-size: 50px;
+}
+ p.h {
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+/*end design */ 
+
+/* start develop */ 
+
+.develop {
+    background-color: #f6f6f6 ;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+/* end development */ 
+
+/* start blog section */
+.blog{
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.blog .blog-h1{
+    color: #333;
+    font-size: 150% ;
+    transition: 0.5s ease-in-out;
+    }
+.blog .blog-h1:hover{
+    color: #e52a3b ;
+}
+.blog .blog-h2{
+    color: #999;
+    transition: 0.5s ease-in-out;
+    }
+.blog .blog-h2:hover{
+    color: #e52a3b ;
+}
+/* end blog section */ 
+
+
+/* start about page */ 
+.about-h {
+    color: white ;
+   
+    
+}
+.about-h span {
+    font-size: 50px;
+   }
+.about-h span.or{
+    font-size: 16px;
+    left: 38%;
+    top: 70%;
+}
+.about-h img{
+    padding-left: 20%;
+}
+
+/* start values section */ 
+.values {
+    background: url(../img/header-triangle.png) left top repeat-x;
+    padding-top: 2.5% ;
+}
+/* end values section */ 
+
+/*start Achievements section */ 
+
+.Achievements {
+    text-align: center ;
+    margin: 20px 0 30px;
+}
+.Achievements i.icon{
+    color: white ; 
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    line-height: 40px;
+    margin: 10px;
+}
+.Achievements a{
+    color: #303030;
+}
+.Achievements a:hover{
+    text-decoration: underline ;
+}
+.Achievements i.icon-red{
+    background-color: #EA6449 ;
+}
+.Achievements i.icon-blue{
+    background-color:  #6BBFFF ;
+}
+.Achievements i.icon-green{
+    background-color:  #86C163 ;
+}
+
+
+/* end Achievements section */ 
+/*send about page */
+
+/* start clients page */ 
+.clients{
+    background: url(../img/header-triangle.png) left top repeat-x;
+}
+.clients .word{
+    
+    background-color: #eee ;
+    color: #333 ;
+    font-size: 23px;
+    margin : 20px;
+    padding: 10px;
+}
+
+/* end clients page */ 
